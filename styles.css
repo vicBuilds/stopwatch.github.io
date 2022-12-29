@@ -1,0 +1,93 @@
+
+
+/* BODY WITH THEME */
+body{
+   background-color: #f5776e;
+   color: rgb(136, 10, 10);
+   letter-spacing: 0.5rem;}
+
+
+/* TO KEEP EVERYTHING INSIDE MAIN ALLIGNED */
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+
+
+
+/* UNIFORM FONT FAMILY & SIZE IN ALL DIVS */
+div{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7rem;}
+
+
+
+/* HEADER HIGHLIGHTS */
+#header{
+text-align: center;
+background-color: #ffadad;}
+
+#header h4{
+    
+    border: 3px solid red;
+    box-shadow: 0px 0px 20px 15px #ff0000;
+    border-radius: 25px;}
+
+
+/* CUSTOM STYLING FOR BUTTONS */
+button{
+    height: 70px;
+    width: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 91, 91);
+    color: black;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 5px #e92626;
+    font-size: 25;
+}
+
+
+/* STYLING ON  BUTTONS TO MAKE IT LOOK GOOD */
+button:hover{
+    box-shadow: 0px 0px 20px 7px #efe6e6;
+    color: white;
+}
+
+
+
+/* DIV SHOWING TIME */
+#time-keeper{
+    margin-top: -113px;
+    text-align: center;
+    font-size: 12rem;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* COLORS MATCHING THE THEME */
+.theme{
+    background-color: #f05d5d;
+    border: 4px solid red;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 5px #eb0000;}
+ img{
+    height:150px;
+ }   
+
+ #footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.5;
+    position: fixed;
+    font-style: italic;
+    top:95%;
+    letter-spacing:normal;
+    font-size: 1rem;
+    color:rgb(0, 0, 0);
+ }
